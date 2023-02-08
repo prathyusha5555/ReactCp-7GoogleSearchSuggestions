@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.google-img {
+  height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 40%;
+  padding: 20px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.suggestions-list {
+  list-style-type: none;
+}
+.search-bar {
+  width: 100%;
+  border: none;
+  outline: none;
+}
